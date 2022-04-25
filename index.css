@@ -80,3 +80,68 @@ body{
     margin: 50px;
     border-radius: 15px;
 }
+
+/* media Query */
+
+@media screen and (max-width:500px) {
+    .heading{
+        /* border:  1px solid black; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin:20px;
+    }
+
+    .inf{
+        text-align: center;
+        /* border: 1px solid black; */
+        width: 100%;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .inf h1{
+        font-weight: 700px;
+        font-size: 36px;
+    
+    }
+    .inf p{
+        /* margin: 20px; */
+        color: #939393;
+    }
+
+    .entries{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+        /* border: 1px solid black; */
+        width: 100%;
+        
+    }
+    
+    .entries input{
+        padding: 15px;
+        margin:15px 5px;
+        width: 100%;
+    }
+    
+    .entries input[type =text], .entries input[type = email]{
+        outline: none;
+        border: 1px solid #004AAD45;
+        border-radius: 10px;
+        background-color: #F5FAFF;
+    }
+    .reg-btn{
+        width: 100%;
+        padding: 15px;
+        background-color: #004aad;
+        border: none;
+        outline: none;
+        color: white;
+        font-weight: bold;
+        margin: 50px 0px;
+        border-radius: 15px;
+    }
+    
+}
