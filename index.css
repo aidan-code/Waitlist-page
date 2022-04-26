@@ -145,3 +145,52 @@ body{
     }
     
 }
+
+/* __________________SET UP YOUR ACCOUNT STYLING_________________________ */
+
+ .set-up{
+        /* border: 1px solid ; */
+        box-shadow: 0px 12px 50px 0px #EAEEFD26, 
+                    7px 0px 16px 0px #C3C2C214,
+                    -12px 0px 22px 0px #C3C2C221;    
+     
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+ }
+ .sp-entries{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+ }
+ .pass-case{
+    border: 1px solid black;
+    padding: 20px;
+    width: 350px;
+    border-radius: 15px;
+    margin: 10px;
+    border: 1px solid #004AAD45;
+    background-color: #F5FAFF;
+    display: flex;
+    align-items: center;
+
+
+}
+
+ .pass-case input[type = password]{
+     border: none;
+     outline: none;
+     width: 300px;
+     font-size: 15px;
+     background-color: #F5FAFF;
+     
+
+
+ }
+
+ 
