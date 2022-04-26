@@ -47,6 +47,7 @@ body{
 }
 .inf p{
     margin: 20px;
+    font-size: 18px;
     color: #939393;
 }
 
@@ -85,6 +86,173 @@ body{
     margin: 50px;
     border-radius: 15px;
 }
+
+
+/* __________________SET UP YOUR ACCOUNT STYLING_________________________ */
+
+.set-up{
+    /* border: 1px solid ; */
+    box-shadow: 0px 12px 50px 0px #EAEEFD26, 
+                7px 0px 16px 0px #C3C2C214,
+                -12px 0px 22px 0px #C3C2C221;    
+ 
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 50px;
+
+}
+.sp-entries{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 30px;
+}
+.pass-case{
+border: 1px solid black;
+padding: 15px;
+width: 350px;
+border-radius: 10px;
+margin: 15px;
+border: 1px solid #004AAD45;
+background-color: #F5FAFF;
+display: flex;
+align-items: center;
+
+
+}
+
+.pass-case input[type = password]{
+ border: none;
+ outline: none;
+ width: 300px;
+ font-size: 15px;
+ background-color: #F5FAFF;
+ /* color: #004aad; */
+ 
+
+
+}
+
+
+/* ____________________________ DASHBOARD LOGIN PAGE________________ */
+.mainspace{
+ /* background-image: url(./w-img/Rectangle\ 1125.png); */
+ height: 100vh;
+ background-size: cover;
+ background-position: left;
+ display: flex;
+}
+
+.banner1{
+ width: 100%;
+ background-image: url(./w-img/Rectangle\ 1125.png);
+ background-size: cover;
+ background-position: bottom;
+
+}
+.logo-lg{
+margin: 30px;
+height: 50px;
+}
+.login-1{
+ /* border: 1px solid black; */
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ width: 100%;
+}
+
+.log_case{
+ /* border: 1px solid black; */
+}
+
+.log-ctnt{
+ /* border: 1px solid black; */
+ margin: 50px 15px;
+}
+
+.log-ctnt h1{
+ color: #022554;
+ font-weight: bolder;
+ font-size: 24px;
+}
+
+.log-ctnt p{
+ color: #939393;
+}
+
+.lg-form{
+ margin: 50px 0px;
+ padding: 20px 0px;
+ /* border: 1px solid black; */
+}
+
+.mail-log{
+/* border: 1px solid black; */
+padding: 15px;
+width: 400px;
+border-radius: 10px;
+margin: 15px;
+border: 1px solid #004AAD45;
+background-color: #F5FAFF;
+display: flex;
+align-items: center;
+}
+.pass-log{
+/* border: 1px solid black; */
+padding: 15px;
+width: 400px;
+border-radius: 10px;
+margin: 15px;
+border: 1px solid #004AAD45;
+background-color: #F5FAFF;
+display: flex;
+align-items: center;
+}
+
+.mail-log input[type= email]{
+border: none;
+outline: none;
+width: 350px;
+font-size: 15px;
+background-color: #F5FAFF;
+/* color: #004aad; */
+
+}
+.pass-log input[type= password]{
+border: none;
+outline: none;
+width: 100%;
+font-size: 15px;
+background-color: #F5FAFF;
+}
+.forget{
+ /* border: 1px solid black; */
+ margin: 15px;
+ text-align: right;
+}
+.forget a{
+color: #00C31F;
+text-decoration: none;
+}
+
+.login-btn{
+width: 400px;
+padding: 15px;
+background-color: #004aad;
+border: none;
+outline: none;
+color: white;
+font-weight: bold;
+/* margin: 50px; */
+border-radius: 10px; 
+margin: 20px 20px;
+}
+
+
 
 /* media Query */
 
@@ -148,171 +316,28 @@ body{
         margin: 50px 0px;
         border-radius: 15px;
     }
+
+    /* Media query for the setup page */
+    .set-up{
+        /* border: 1px solid black; */
+        width: 100%;
+        margin: 50px 10px;
+
+    }
+
+    .sp-entries{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .pass-case{
+        width: 100%;
+
+    }
+
+    .pass-case input[type = password]{
+        width: 100%;
+    }
+
     
 }
-
-/* __________________SET UP YOUR ACCOUNT STYLING_________________________ */
-
- .set-up{
-        /* border: 1px solid ; */
-        box-shadow: 0px 12px 50px 0px #EAEEFD26, 
-                    7px 0px 16px 0px #C3C2C214,
-                    -12px 0px 22px 0px #C3C2C221;    
-     
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
-
- }
- .sp-entries{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
- }
- .pass-case{
-    border: 1px solid black;
-    padding: 15px;
-    width: 350px;
-    border-radius: 10px;
-    margin: 15px;
-    border: 1px solid #004AAD45;
-    background-color: #F5FAFF;
-    display: flex;
-    align-items: center;
-
-
-}
-
- .pass-case input[type = password]{
-     border: none;
-     outline: none;
-     width: 300px;
-     font-size: 15px;
-     background-color: #F5FAFF;
-     /* color: #004aad; */
-     
-
-
- }
-
-
- /* ____________________________ DASHBOARD LOGIN PAGE________________ */
- .mainspace{
-     /* background-image: url(./w-img/Rectangle\ 1125.png); */
-     height: 100vh;
-     background-size: cover;
-     background-position: left;
-     display: flex;
- }
-
- .banner1{
-     width: 100%;
-     background-image: url(./w-img/Rectangle\ 1125.png);
-     background-size: cover;
-     background-position: bottom;
-
- }
-.logo-lg{
-    margin: 30px;
-    height: 50px;
-}
- .login-1{
-     /* border: 1px solid black; */
-     display: flex;
-     justify-content:center;
-     align-items: center;
-     width: 100%;
- }
-
- .log_case{
-     /* border: 1px solid black; */
- }
-
- .log-ctnt{
-     /* border: 1px solid black; */
-     margin: 50px 15px;
- }
-
- .log-ctnt h1{
-     color: #022554;
-     font-weight: bolder;
-     font-size: 24px;
- }
-
- .log-ctnt p{
-     color: #939393;
- }
-
- .lg-form{
-     margin: 50px 0px;
-     padding: 20px 0px;
-     /* border: 1px solid black; */
- }
-
- .mail-log{
-    /* border: 1px solid black; */
-    padding: 15px;
-    width: 400px;
-    border-radius: 10px;
-    margin: 15px;
-    border: 1px solid #004AAD45;
-    background-color: #F5FAFF;
-    display: flex;
-    align-items: center;
- }
- .pass-log{
-    /* border: 1px solid black; */
-    padding: 15px;
-    width: 400px;
-    border-radius: 10px;
-    margin: 15px;
-    border: 1px solid #004AAD45;
-    background-color: #F5FAFF;
-    display: flex;
-    align-items: center;
- }
-
- .mail-log input[type= email]{
-    border: none;
-    outline: none;
-    width: 350px;
-    font-size: 15px;
-    background-color: #F5FAFF;
-    /* color: #004aad; */
-    
- }
- .pass-log input[type= password]{
-    border: none;
-    outline: none;
-    width: 100%;
-    font-size: 15px;
-    background-color: #F5FAFF;
- }
- .forget{
-     /* border: 1px solid black; */
-     margin: 15px;
-     text-align: right;
- }
- .forget a{
-    color: #00C31F;
-    text-decoration: none;
- }
-
- .login-btn{
-    width: 400px;
-    padding: 15px;
-    background-color: #004aad;
-    border: none;
-    outline: none;
-    color: white;
-    font-weight: bold;
-    /* margin: 50px; */
-    border-radius: 10px; 
-    margin: 20px 20px;
- }
-
- 
