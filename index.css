@@ -254,121 +254,8 @@ margin: 20px 20px;
 
 
 
-/* media Query */
 
-@media screen and (max-width:500px) {
-    .heading{
-        /* border:  1px solid black; */
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin:20px;
-    }
-
-    .inf{
-        text-align: center;
-        /* border: 1px solid black; */
-        width: 100%;
-        margin-top: 50px;
-        width: 100%;
-    }
-
-    .inf h1{
-        font-weight: 700px;
-        font-size: 36px;
-    
-    }
-    .inf p{
-        /* margin: 20px; */
-        color: #939393;
-    }
-
-    .entries{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 30px 20px;
-        /* border: 1px solid black; */
-        width: 100%;
-        
-    }
-    
-    .entries input{
-        padding: 15px;
-        margin:15px 5px;
-        width: 100%;
-    }
-    
-    .entries input[type =text], .entries input[type = email]{
-        outline: none;
-        border: 1px solid #004AAD45;
-        border-radius: 10px;
-        background-color: #F5FAFF;
-    }
-    .reg-btn{
-        width: 100%;
-        padding: 15px;
-        background-color: #004aad;
-        border: none;
-        outline: none;
-        color: white;
-        font-weight: bold;
-        margin: 50px 0px;
-        border-radius: 15px;
-    }
-
-    /* Media query for the setup page */
-    .set-up{
-        /* border: 1px solid black; */
-        width: 100%;
-        margin: 50px 10px;
-
-    }
-
-    .sp-entries{
-        width: 100%;
-        padding: 20px;
-    }
-
-    .pass-case{
-        width: 100%;
-
-    }
-
-    .pass-case input[type = password]{
-        width: 100%;
-    }
-
-    /* dashboard media query */
-
-    .dsh{
-        padding: 0px 0px;
-        border: 1px solid black;
-        
-    }
-    .dsh nav{
-        margin: 0px;
-        /* border: 1px solid black; */
-    }
-    
-    .cs-logo
-    .menu{
-        display: block;
-    }
-
-    .hd-nav{
-        display: none ;
-        border: 1px solid black;
-    
-    }
-   
-
-
-
-    
-}
-
- /*_____________________THE DASHBOARD ________________________*/
+/*_____________________THE DASHBOARD ________________________*/
 
 .dsh{
     /* border:1px solid black; */
@@ -389,7 +276,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 width:100%;
-border: 1px solid black;
+/* border: 1px solid black; */
 }
 
 .menu{
@@ -503,3 +390,144 @@ text-decoration:none;
 
 }
 
+
+
+
+
+/* media Query */
+
+@media screen and (max-width:500px) {
+    .heading{
+        /* border:  1px solid black; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin:20px;
+    }
+
+    .inf{
+        text-align: center;
+        /* border: 1px solid black; */
+        width: 100%;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .inf h1{
+        font-weight: 700px;
+        font-size: 36px;
+    
+    }
+    .inf p{
+        /* margin: 20px; */
+        color: #939393;
+    }
+
+    .entries{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+        /* border: 1px solid black; */
+        width: 100%;
+        
+    }
+    
+    .entries input{
+        padding: 15px;
+        margin:15px 5px;
+        width: 100%;
+    }
+    
+    .entries input[type =text], .entries input[type = email]{
+        outline: none;
+        border: 1px solid #004AAD45;
+        border-radius: 10px;
+        background-color: #F5FAFF;
+    }
+    .reg-btn{
+        width: 100%;
+        padding: 15px;
+        background-color: #004aad;
+        border: none;
+        outline: none;
+        color: white;
+        font-weight: bold;
+        margin: 50px 0px;
+        border-radius: 15px;
+    }
+
+    /* Media query for the setup page */
+    .set-up{
+        /* border: 1px solid black; */
+        width: 100%;
+        margin: 50px 10px;
+
+    }
+
+    .sp-entries{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .pass-case{
+        width: 100%;
+
+    }
+
+    .pass-case input[type = password]{
+        width: 100%;
+    }
+
+    /* dashboard media query */
+
+    .dsh{
+        padding:20px 20px;
+        /* border: 1px solid black; */
+        
+    }
+    .dsh nav{
+        margin: 0px;
+        /* border: 1px solid black; */
+    }
+    
+    
+    .menu{
+        display: block;
+    }
+
+    .hd-nav{
+        display: none ;
+        /* border: 1px solid black; */
+    
+    }
+
+    .wlcm{
+        /* border: 1px solid black; */
+        margin: 50px 20px;
+        padding:50px 20px;
+        position: relative;
+        background-color: #EAEEFD;
+        border-radius: 10px;
+        z-index: -1;
+       
+    
+    }
+    .wlcm img {
+        height: 250px;
+        position: absolute;
+        top: 170px;
+        right: 0px;
+        z-index: -1;
+    
+    }
+
+
+   
+
+
+
+    
+}
+
+ 
