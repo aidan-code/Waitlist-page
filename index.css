@@ -364,6 +364,7 @@ margin: 20px 20px;
 .cs_opt li{
    list-style: none;
    padding: 10px 15px;
+   margin: 10px;
 }
 
 .cs_opt li a{
@@ -391,10 +392,11 @@ margin: 20px 20px;
 
 }
 
+
 .wlcm{
     /* border: 1px solid black; */
     margin: 50px 100px;
-    padding: 70px;
+    padding:50px 100px;
     position: relative;
     background-color: #EAEEFD;
     border-radius: 10px;
@@ -404,7 +406,22 @@ margin: 20px 20px;
 
 .pane{
     /* border: 1px solid black; */
+    /* border: 1px solid black; */
     
+}
+.pane h1{
+    color: #00214E;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 0px;
+}
+.pane p{
+    color: #939393;
+}
+
+.pane p span{
+    color: red;
+    font-weight: bold;
 }
 
 .wlt{
@@ -415,6 +432,6 @@ margin: 20px 20px;
     height: 450px;
     position: absolute;
     top: 10px;
-    right: 30px;
+    right: 50px;
 
 }
