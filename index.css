@@ -340,19 +340,24 @@ margin: 20px 20px;
     }
 
     /* dashboard media query */
+
     .dsh{
-        /* border: 1px solid black; */
+        padding: 0px 0px;
+        border: 1px solid black;
+        
     }
     .dsh nav{
-        border: 1px solid black;
+        margin: 0px;
+        /* border: 1px solid black; */
     }
     
+    .cs-logo
     .menu{
         display: block;
     }
 
-    .cs_opt{
-        display: none;
+    .hd-nav{
+        display: none ;
         border: 1px solid black;
     
     }
@@ -365,86 +370,79 @@ margin: 20px 20px;
 
  /*_____________________THE DASHBOARD ________________________*/
 
- .dsh{
-    /* border: 1px solid black; */
-    padding: 20px 50px;
+.dsh{
+    /* border:1px solid black; */
+    padding: 30px 50px;
+    }
     
-}
-
-.menu{
-    /* border: 1px solid; */
-    display: hidden;
-}
-.bar{
-    /* border: 1px solid black; */
-    width: 25px;
-    height: 3px;
-    background-color: #004aad;
-    margin: 4px;
-    /* display: none; */
-}
-
 .dsh nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+display:flex;
+justify-content:space-between;
+align-items:center;
+/* border:1px solid red; */
+
+    
 }
 
 .cs-logo{
-    /* border: 1px solid black; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+display:flex;
+justify-content:space-between;
+align-items:center;
+width:100%;
+border: 1px solid black;
 }
+
 .menu{
-    /* border: 1px solid; */
-    display: hidden;
+  /* border:1px solid black; */
 }
 .bar{
-    /* border: 1px solid black; */
-    width: 25px;
-    height: 3px;
-    background-color: #004aad;
-    margin: 4px;
-    /* display: none; */
-}
-
-.cs_opt{
-    display: flex;
-    border: 1px solid black;
-
-}
-.cs_opt li{
-   list-style: none;
-   padding: 10px 15px;
-   margin: 10px;
-}
-
-.cs_opt li a{
-    text-decoration: none;
-
+    height:3px;
+    width:30px;
+    margin:5px 0px;
+    background-color:#004aad;
     
 }
 
-/* the navigation */
-.cs_opt .dg-a a{
+.hd-nav ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:400px;
+/*   margin:0px 20px; */
+}
+
+.hd-nav ul li{
+list-style:none;
+margin:0px 15px 
+}
+
+.hd-nav ul li a{
+text-decoration:none;
+
+}
+
+.hd-nav ul .dg-a a{
     color: #004aad;
     font-weight: bold;
 }
 
-.cs_opt .dg-b a{
-    color:#C3C2C2;
-    /* font-weight: bold; */
+.hd-nav ul .dg-b a{
+    color: #C3C2C2;
+    font-weight: bold;
 }
 
-.cs_opt .dg-c a{
+
+.hd-nav ul .dg-c a{
     color: white;
+    font-weight: bold;
     background-color: #004aad;
-    padding: 10px 15px;
+    padding: 10px 25px;
     border-radius: 5px;
-
+    
 }
-
+    
+    
+     
 
 .wlcm{
     /* border: 1px solid black; */
