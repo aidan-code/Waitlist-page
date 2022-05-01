@@ -292,17 +292,20 @@ width:100%;
     
 }
 
+
 .hd-nav ul{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    width:400px;
+    width:450px;
+    /* border: 1px solid black; */
+    /* padding: 20px; */
 /*   margin:0px 20px; */
 }
 
 .hd-nav ul li{
 list-style:none;
-margin:0px 15px 
+/* margin:15px 0;  */
 }
 
 .hd-nav ul li a{
@@ -325,7 +328,7 @@ text-decoration:none;
     color: white;
     font-weight: bold;
     background-color: #004aad;
-    padding: 10px 25px;
+    padding: 10px 15px;
     border-radius: 5px;
     
 }
