@@ -5,7 +5,7 @@
 }
 
 body{
-    
+    font-family: 'Roboto', sans-serif;
 
 }
 .heading{
@@ -260,7 +260,7 @@ margin: 20px 20px;
 
 .dsh{
     /* border:1px solid black; */
-    padding: 30px 50px;
+    padding: 30px 80px;
     }
     
 .dsh nav{
@@ -333,67 +333,230 @@ text-decoration:none;
     
 }
     
-    
-     
-
-.wlcm{
+.disp01{
     /* border: 1px solid black; */
-    margin: 50px 100px;
-    padding:50px 100px;
-    position: relative;
-    background-color: #EAEEFD;
-    border-radius: 10px;
-   
-
-}
-
-.pane{
-    /* border: 1px solid black; */
-    /* border: 1px solid black; */ 
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
-    justify-content: flex-start;
+    justify-content: space-between;
+    padding: 0px 70px;
+
+}
+
+.disp01 .user_name{
+    /* border: 1px solid black; */
+    margin: 40px 20px;
+    font-size:28px;
+    font-weight: 900px;
+}
+
+.disp01 .stats{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+/* this is the main case */
+.same{
+    /* border: 1px solid black; */
+    margin: 0px 20px;
+    background-color: #EAEEFD;
+    /* border-left:5px solid #004aad; */
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    
+
+}
+/* inden is the sidebar colored 004aad */
+.inden{
+    width: 7px;
+    background-color: #004aad;
+    border-radius: 15px;
+}
+
+.sd-txt{
+    padding: 25px 100px;
+    text-align: center;
+    /* border: 1px solid black; */
+    color: #004aad;
+
+}
+
+.sd-txt h1{
+    margin: 10px;
+    font-size: 36px;
+}
+
+/* table section */
+.mjr01{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+
+.table-disp{
+    /* border: 1px solid black; */
+    width: 100%;
+    margin:0px  40px;
+}
+
+.tb-head{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #004aad;
+    border-radius: 10px;
+
+}
+.tb-head h4{
+    /* border: 1px solid black; */
+    padding: 15px 50px;
+    color: white;
+
+}
+
+.tb-body{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0px;
+    background-color: #FBFCFF;
+}
+
+.tb-body p{
+    padding: 15px 50px;
+}
+
+.tb-body:hover{
+    background-color: #EAEEFD;
+}
+
+/* the referal lin sections and some extra info */
+
+.r-lnk{
+    /* border: 1px solid black; */
+    width: 100%;
+    /* padding: 0px 20px; */
+    margin:0px 30px;
     
 }
-.pane h1{
-    color: #00214E;
-    font-weight: bold;
-    font-size: 30px;
+
+.lnk{
+    /* border: 1px solid black; */
+    box-shadow: 0px 12px 22px rgba(0, 0, 0, 0.07), 
+                0px -12px 22px rgba(0, 0, 0, 0.07) ;
+    border-radius: 10px;
+    padding: 10px;
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cp-in{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.cp-in p{
+    font-size: 12px;
+    font-weight: lighter;
+    color: #ABAAAA;
+
+}
+
+.reff{
+    display: flex;
     margin: 30px 0px;
 }
-.pane p{
-    color: #939393;
+.reff p{
+    border: 1px solid #E2E9FF;
+
+    padding: 10px;
+
 }
 
-.pane p span{
-    color: red;
-    font-weight: bold;
-}
-
-.wlt{
-    margin: 50px 0px;
-    /* border: 1px solid black; */
+.reff button{
     background-color: #004aad;
-    padding: 10px 25px;
-    border-radius: 10px;
-   
-    
-}
-.wlt a{
-    text-decoration: none;
     color: white;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    padding: 15px;
+    font-style: italic;
+    margin: 0px;
+}
+
+.in-lnk{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0px;
+}
+.in-sec01{
+    /* border: 1px solid black; */
+    margin-right: 10px;
+    box-shadow: 0px 12px 22px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.in-sec01 p{
+    font-size: 12px;
+    text-align: center;
+    color: #969696;
+    /* font-weight: bold; */
+    margin: 10px 0px;
+}
+
+.illus{
+    height: 100px;
+    margin: 15px 10px ;
+}
+
+.gains p{
+    /* border: 1px solid black; */
+    font-size: 11px;
     font-weight: bold;
-
+    padding:10px;
+    border-radius: 10px;
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    color:#004aad ;
+    background-color: #F3F6FE;
+}
+.gains p img{
+    height: 25px;
 }
 
-.wlcm img {
-    height: 450px;
-    position: absolute;
-    top: 20px;
-    right: 50px;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
